@@ -46,3 +46,7 @@ $ cargo --version
 $ cargo new hello_cargo
 ```
 [Cargo Docs](hello_cargo/README.md)
+
+#### 4. Variables
+
+[Variables](variables.md)
