@@ -36,3 +36,13 @@ $ ./hello_word.exe
 #### 2.1. Rust compoiler details
 
 [Rust compailer Doc](rust-compailer.md)
+
+
+#### 3. Cargo
+
+```bash
+$ cargo --version
+
+$ cargo new hello_cargo
+```
+[Cargo Docs](hello_cargo/README.md)
