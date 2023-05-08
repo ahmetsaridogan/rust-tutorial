@@ -1,7 +1,7 @@
 # Rust Tutorial
 
 ## 1. Install Rust
-1.1. Mac-OS
+#### 1.1. Mac-OS
 https://www.rust-lang.org/tools/install
 
 ```bash
@@ -22,3 +22,17 @@ $ source "$HOME/.cargo/env"
 $ rustc --version
 ```
 
+## 2. Create a hello world file
+```bash
+$ rustc hello_word.rs
+
+# on mac-os
+$ ./hello_word 
+
+# on widows
+$ ./hello_word.exe
+```
+
+#### 2.1. Rust compoiler details
+
+[Rust compailer Doc](rust-compailer.md)
