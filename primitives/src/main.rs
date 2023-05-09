@@ -86,4 +86,12 @@ fn main() {
     let mut mutable_number: i8 = 1;
     mutable_number += 1; // mutable_number = mutable_number + 1;
     println!("mutable_number: {}", mutable_number);
+
+    print!("-------------------------\n");
+    println!("Overflowing");
+
+    let mut overflowing_number: u8 = 255;
+    overflowing_number = overflowing_number + 1;
+    println!("overflowing_number: {}", overflowing_number);
+    
 }
