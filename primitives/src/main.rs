@@ -1,3 +1,5 @@
+#[allow(unused_assignments)]
+
 fn main() {
     println!("Variables");
 
@@ -51,4 +53,13 @@ fn main() {
       line 
       comment 
     */
+
+    print!("-------------------------\n");
+    println!("#[allow] attribute");
+    // #[allow(unused_assignments)]
+    // #[allow(non_snake_case))]
+
+    // allow multi attributes
+    // #[allow(unused_assignments, non_snake_case)]
+
 }

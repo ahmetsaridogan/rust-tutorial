@@ -50,3 +50,15 @@ $ cargo new hello_cargo
 #### 4. Variables
 
 [Variables](variables.md)
+
+#### 5. Allow Attribute
+
+```rust
+// #[allow] attribute
+
+#[allow(unused_assignments)]
+#[allow(non_snake_case)]
+
+// allow multi attributes
+#[allow(unused_assignments, non_snake_case)]
+```
