@@ -62,4 +62,28 @@ fn main() {
     // allow multi attributes
     // #[allow(unused_assignments, non_snake_case)]
 
+    print!("-------------------------\n");
+    println!("Arithmetic Operators");
+
+    let number_one: i8 = 25;
+    let number_two: i8 = 5;
+
+    let addition: i32 = 100 + 50;
+    let subtraction = 20 - 7;
+    let multiplication = 12 * 4;
+    let division = number_one / number_two;
+    
+    println!("addition: {}", addition);
+    println!("subtraction: {}", subtraction);
+    println!("multiplication: {}", multiplication);
+    println!("division: {}", division);
+    
+    let remainder = number_one % number_two;
+
+    println!("remainder(mod): {}", remainder);
+
+    println!("Mutable variable");
+    let mut mutable_number: i8 = 1;
+    mutable_number += 1; // mutable_number = mutable_number + 1;
+    println!("mutable_number: {}", mutable_number);
 }

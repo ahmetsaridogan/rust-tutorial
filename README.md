@@ -62,3 +62,9 @@ $ cargo new hello_cargo
 // allow multi attributes
 #[allow(unused_assignments, non_snake_case)]
 ```
+
+#### 6. Aricmetic Operators
+
+```rust
+// + - * / % (mod)
+```
