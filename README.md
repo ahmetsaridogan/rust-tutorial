@@ -96,3 +96,10 @@ $ rustup doc --reference
 ```
 https://docs.rs/
 
+
+#### 8. Rustup Update
+
+```bash
+$ rustup update
+$ rustup show
+```
