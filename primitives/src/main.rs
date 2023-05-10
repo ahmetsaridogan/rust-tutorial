@@ -92,6 +92,7 @@ fn main() {
 
     let mut overflowing_number: u8 = 255;
     // overflowing_number = overflowing_number + 1;
+    overflowing_number = overflowing_number - 1;
     println!("overflowing_number: {}", overflowing_number);
     
     print!("-------------------------\n");

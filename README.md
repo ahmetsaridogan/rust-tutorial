@@ -63,11 +63,20 @@ $ cargo new hello_cargo
 #[allow(unused_assignments, non_snake_case)]
 ```
 
-#### 6. Aricmetic Operators
+#### 6. Operators
+
+##### 6.1. Arithmetic Operators
 
 ```rust
 // + - * / % (mod)
 ```
+
+##### 6.2. Comparison Operators
+
+```rust
+// == != > < >= <=
+```
+![Comparison Operators](./images/comparison-operators.png "Comparison Operators")
 
 #### 7. Println ve Print macroları
 
