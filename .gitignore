@@ -2,3 +2,4 @@
 !*.md
 
 /*/target
+.DS_Store

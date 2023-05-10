@@ -91,7 +91,18 @@ fn main() {
     println!("Overflowing");
 
     let mut overflowing_number: u8 = 255;
-    overflowing_number = overflowing_number + 1;
+    // overflowing_number = overflowing_number + 1;
     println!("overflowing_number: {}", overflowing_number);
     
+    print!("-------------------------\n");
+    println!("Println ve Print Macroları");
+
+    let x: u8 = 5;
+    let y: u8 = 10;
+
+    println!("x = {}, y = {}", x, y);
+    println!("x = {0}, y = {1}, x = {0}", x, y);
+    println!("x = {x}, y = {y}");
+    println!("x = {x}, y = {y}", x = 1, y = 2);
+
 }

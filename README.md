@@ -68,3 +68,31 @@ $ cargo new hello_cargo
 ```rust
 // + - * / % (mod)
 ```
+
+#### 7. Println ve Print macroları
+
+```rust
+// println! ve print! makroları
+// println! makrosu ekrana yazdırır ve alt satıra geçer
+// print! makrosu ekrana yazdırır ve alt satıra geçmez
+
+let x: u8 = 5;
+let y: u8 = 10;
+
+println!("x = {}, y = {}", x, y);
+println!("x = {0}, y = {1}, x = {0}", x, y);
+println!("x = {x}, y = {y}");
+println!("x = {x}, y = {y}", x = 1, y = 2);
+```
+
+![Println ve Print macroları](./img/println-print.png "Println ve Print macroları")
+
+#### 8. Rustup Docs
+
+```bash
+$ rustup doc
+$ rustup doc --book
+$ rustup doc --reference
+```
+https://docs.rs/
+
